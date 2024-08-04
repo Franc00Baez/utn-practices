@@ -6,24 +6,28 @@ using System.Threading.Tasks;
 
 namespace CSHARP
 {
-    public class Wizzard : Hp
+    public class Wizard : Hp
     {
         public string Name { get; private set; }
         public StatBlock Stats { get; protected set; }
 
         public const ushort HPGROWTH = 12;
+
         public const byte STRBASE = 1;
         public const byte INTBASE = 5;
         public const byte AGLBASE = 1;
 
-        public Wizzard(string name) : base(HPGROWTH)
+        public const byte STRGROWTH = 0;
+        public const byte INTGROWTH = 5;
+        public const byte AGLGROWTH = 1;
+        public Wizard(string name) : base(HPGROWTH)
         {
             Name = name;
             Stats = new StatBlock(STRBASE, INTBASE, AGLBASE);
         }
         public override void IncreaseStatsOnLevelUp()
         {
-            Stats.IncreaseStats(STRBASE, INTBASE, AGLBASE);
+            Stats.IncreaseStats(STRGROWTH, INTGROWTH, AGLGROWTH);
             MaxHp += HPGROWTH;
             CurrentHp = MaxHp;
         }

@@ -12,9 +12,14 @@ namespace CSHARP
         public StatBlock Stats { get; protected set; }
 
         public const ushort HPGROWTH = 15;
+
         public const byte STRBASE = 2;
         public const byte INTBASE = 1;
         public const byte AGLBASE = 4;
+
+        public const byte STRGROWTH = 1;
+        public const byte INTGROWTH = 0;
+        public const byte AGLGROWTH = 5;
 
         public Rogue(string name) : base(HPGROWTH)
         {
@@ -23,7 +28,7 @@ namespace CSHARP
         }
         public override void IncreaseStatsOnLevelUp()
         {
-            Stats.IncreaseStats(STRBASE, INTBASE, AGLBASE);
+            Stats.IncreaseStats(STRGROWTH, INTGROWTH, AGLGROWTH);
             MaxHp += HPGROWTH;
             CurrentHp = MaxHp;
         }

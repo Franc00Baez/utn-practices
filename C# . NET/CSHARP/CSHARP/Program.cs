@@ -21,6 +21,7 @@ namespace CSHARP
                 Console.WriteLine("/ \t" + "Level: " + obj1.Level);
                 Console.WriteLine("/ \t" + "CurrentXP: " + obj1.CurrentXP);
                 Console.WriteLine("/ \t" + "XPForNextLevel: " + obj1.NextLevel);
+                Console.WriteLine("/ \t" + "CurrentHP: " + war.CurrentHp);
                 Console.WriteLine("/ \t" + "Strength: " + war.Stats.Strength);
                 Console.WriteLine("/ \t" + "Intelect: " + war.Stats.Intellect);
                 Console.WriteLine("/ \t" + "Agility: " + war.Stats.Agility);
@@ -32,6 +33,7 @@ namespace CSHARP
                 Console.WriteLine("/ \t" + "Level: " + obj2.Level);
                 Console.WriteLine("/ \t" + "CurrentXP: " + obj2.CurrentXP);
                 Console.WriteLine("/ \t" + "XPForNextLevel: " + obj2.NextLevel);
+                Console.WriteLine("/ \t" + "CurrentHP: " + rogue.CurrentHp);
                 Console.WriteLine("/ \t" + "Strength: " + rogue.Stats.Strength);
                 Console.WriteLine("/ \t" + "Intelect: " + rogue.Stats.Intellect);
                 Console.WriteLine("/ \t" + "Agility: " + rogue.Stats.Agility);

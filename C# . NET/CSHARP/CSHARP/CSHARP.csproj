@@ -51,7 +51,7 @@
     <Compile Include="StatBlock.cs" />
     <Compile Include="Warrior.cs" />
     <Compile Include="Weapon.cs" />
-    <Compile Include="Wizzard.cs" />
+    <Compile Include="Wizard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
