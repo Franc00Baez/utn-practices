@@ -1,0 +1,6 @@
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Helpers\bin\Debug\Helpers.dll
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Helpers\bin\Debug\Helpers.pdb
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Helpers\obj\Debug\Helpers.csproj.AssemblyReference.cache
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Helpers\obj\Debug\Helpers.dll
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Helpers\obj\Debug\Helpers.pdb

@@ -1,0 +1,6 @@
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\WebConsultorio\Dominio\bin\Debug\Dominio.dll
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\WebConsultorio\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\WebConsultorio\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\WebConsultorio\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\WebConsultorio\Dominio\obj\Debug\Dominio.dll
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\WebConsultorio\Dominio\obj\Debug\Dominio.pdb

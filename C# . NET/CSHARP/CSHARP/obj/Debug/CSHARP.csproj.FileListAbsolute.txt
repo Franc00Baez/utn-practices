@@ -1,0 +1,7 @@
+C:\Users\Franco\FACULTAD\utn-practices\C# . NET\CSHARP\CSHARP\obj\Debug\CSHARP.csproj.AssemblyReference.cache
+C:\Users\Franco\FACULTAD\utn-practices\C# . NET\CSHARP\CSHARP\obj\Debug\CSHARP.csproj.CoreCompileInputs.cache
+C:\Users\Franco\FACULTAD\utn-practices\C# . NET\CSHARP\CSHARP\bin\Debug\CSHARP.exe.config
+C:\Users\Franco\FACULTAD\utn-practices\C# . NET\CSHARP\CSHARP\bin\Debug\CSHARP.exe
+C:\Users\Franco\FACULTAD\utn-practices\C# . NET\CSHARP\CSHARP\bin\Debug\CSHARP.pdb
+C:\Users\Franco\FACULTAD\utn-practices\C# . NET\CSHARP\CSHARP\obj\Debug\CSHARP.exe
+C:\Users\Franco\FACULTAD\utn-practices\C# . NET\CSHARP\CSHARP\obj\Debug\CSHARP.pdb

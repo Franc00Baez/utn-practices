@@ -1,0 +1,11 @@
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Negocio\bin\Debug\Negocio.dll
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Negocio\bin\Debug\Dominio.dll
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Negocio\obj\Debug\Negocio.dll
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Negocio\bin\Debug\Helpers.dll
+C:\Users\Franco\FACULTAD\utn-practices\ASP.Net\API_WALLET\Negocio\bin\Debug\Helpers.pdb

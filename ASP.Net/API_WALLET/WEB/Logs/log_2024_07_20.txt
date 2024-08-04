@@ -1,0 +1,67 @@
+20/7/2024 18:06:50 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:06:50 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:06:50 - Must declare the scalar variable "@idRol".
+20/7/2024 18:08:39 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:08:39 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:08:46 - Must declare the scalar variable "@idRol".
+20/7/2024 18:12:29 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:12:29 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:13:19 - Must declare the scalar variable "@idRol".
+20/7/2024 18:15:31 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:15:31 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:16:12 - Must declare the scalar variable "@idRol".
+20/7/2024 18:17:09 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:17:09 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:17:09 - Must declare the scalar variable "@idRol".
+20/7/2024 18:22:14 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:22:14 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:22:50 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:22:50 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:22:50 - Violation of UNIQUE KEY constraint 'UQ__USUARIOS__AB6E6164C9E9B493'. Cannot insert duplicate key in object 'dbo.USUARIOS'. The duplicate key value is (francobaez@gmail.com).
+The statement has been terminated.
+20/7/2024 18:23:12 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:23:12 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:23:12 - Violation of UNIQUE KEY constraint 'UQ__USUARIOS__AB6E6164C9E9B493'. Cannot insert duplicate key in object 'dbo.USUARIOS'. The duplicate key value is (francobaez@gmail.com).
+The statement has been terminated.
+20/7/2024 18:25:12 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:25:12 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:25:13 - Violation of UNIQUE KEY constraint 'UQ__USUARIOS__72AFBCC6B04BC077'. Cannot insert duplicate key in object 'dbo.USUARIOS'. The duplicate key value is (francobaez).
+The statement has been terminated.
+20/7/2024 18:25:42 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:25:42 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:25:42 - Violation of UNIQUE KEY constraint 'UQ__USUARIOS__72AFBCC6B04BC077'. Cannot insert duplicate key in object 'dbo.USUARIOS'. The duplicate key value is (francobaez).
+The statement has been terminated.
+20/7/2024 18:26:09 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:26:09 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:26:34 - Violation of UNIQUE KEY constraint 'UQ__USUARIOS__72AFBCC6B04BC077'. Cannot insert duplicate key in object 'dbo.USUARIOS'. The duplicate key value is (francobaez).
+The statement has been terminated.
+20/7/2024 18:27:52 - The parameterized query '(@nombreUsuario nvarchar(4000))SELECT CASE 
+            WHEN EX' expects the parameter '@nombreUsuario', which was not supplied.
+20/7/2024 18:27:52 - The parameterized query '(@Email nvarchar(4000))
+                SELECT CASE 
+         ' expects the parameter '@Email', which was not supplied.
+20/7/2024 18:27:58 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:27:58 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:28:00 - Violation of UNIQUE KEY constraint 'UQ__USUARIOS__72AFBCC6B04BC077'. Cannot insert duplicate key in object 'dbo.USUARIOS'. The duplicate key value is (francobaez).
+The statement has been terminated.
+20/7/2024 18:33:36 - The parameterized query '(@nombreUsuario nvarchar(4000))SELECT CASE 
+            WHEN EX' expects the parameter '@nombreUsuario', which was not supplied.
+20/7/2024 18:33:52 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:34:23 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:43:15 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:43:26 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:46:17 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:47:05 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:48:56 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:50:20 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:54:08 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:56:34 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:56:39 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:57:38 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:57:41 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:58:08 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:58:18 - La cadena de entrada no tiene el formato correcto.
+20/7/2024 18:58:18 - Violation of UNIQUE KEY constraint 'UQ__USUARIOS__AB6E6164C9E9B493'. Cannot insert duplicate key in object 'dbo.USUARIOS'. The duplicate key value is (francobaez@gmail.com).
+The statement has been terminated.
+20/7/2024 19:04:19 - ExecuteScalar requiere una Connection abierta y disponible. El estado actual de la conexión es cerrada.
+20/7/2024 19:04:45 - ExecuteScalar requiere una Connection abierta y disponible. El estado actual de la conexión es cerrada.

@@ -1,0 +1,6 @@
+24/7/2024 18:18:29 - ObtenerUsuario: hashpass
+24/7/2024 18:22:01 - ObtenerUsuario: hashpass
+24/7/2024 18:22:30 - ObtenerUsuario: hashpass
+24/7/2024 21:00:13 - ObtenerUsuario: hashpass
+24/7/2024 21:00:30 - ObtenerUsuario: hashpass
+24/7/2024 21:00:46 - ObtenerUsuario: hashpass
