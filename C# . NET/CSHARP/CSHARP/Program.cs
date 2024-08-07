@@ -10,36 +10,20 @@ namespace CSHARP
     {
         static void Main(string[] args)
         {
-            Warrior war = new Warrior("Lazaro");
-            Rogue rogue = new Rogue("Exequiel");
-            LevelSystem obj1 = new LevelSystem(war);
-            LevelSystem obj2 = new LevelSystem(rogue);
+            Warrior war = new Warrior("Lancelote");
 
-            for(int i = 1; i <= 3; i++)
+            for(int i = 0; i <= 5; i ++)
             {
-                Console.WriteLine("----------------- " + war.Name + " -----------------");
-                Console.WriteLine("/ \t" + "Level: " + obj1.Level);
-                Console.WriteLine("/ \t" + "CurrentXP: " + obj1.CurrentXP);
-                Console.WriteLine("/ \t" + "XPForNextLevel: " + obj1.NextLevel);
-                Console.WriteLine("/ \t" + "CurrentHP: " + war.CurrentHp);
-                Console.WriteLine("/ \t" + "Strength: " + war.Stats.Strength);
-                Console.WriteLine("/ \t" + "Intelect: " + war.Stats.Intellect);
-                Console.WriteLine("/ \t" + "Agility: " + war.Stats.Agility);
-                Console.WriteLine("\n\n");
+                Console.WriteLine(war.Name + " - " + war.getClassName());
+                Console.WriteLine("MaxHp: " + war.Hp.MaxPoints);
+                Console.WriteLine("CurrentHp: " + war.Hp.CurrentPoints);
+                Console.WriteLine("Level: " + war.Level);
+                Console.WriteLine(war.StatsString());
+                Console.WriteLine("CurrentXP: " + war.CurrentXP);
+                Console.WriteLine("NextLevel: " + war.NextLevel);
+                war.GainXP(100);
                 Console.ReadKey();
-                obj1.GainXP(150);
-
-                Console.WriteLine("----------------- " + rogue.Name + " -----------------");
-                Console.WriteLine("/ \t" + "Level: " + obj2.Level);
-                Console.WriteLine("/ \t" + "CurrentXP: " + obj2.CurrentXP);
-                Console.WriteLine("/ \t" + "XPForNextLevel: " + obj2.NextLevel);
-                Console.WriteLine("/ \t" + "CurrentHP: " + rogue.CurrentHp);
-                Console.WriteLine("/ \t" + "Strength: " + rogue.Stats.Strength);
-                Console.WriteLine("/ \t" + "Intelect: " + rogue.Stats.Intellect);
-                Console.WriteLine("/ \t" + "Agility: " + rogue.Stats.Agility);
-                Console.WriteLine("\n\n");
-                Console.ReadKey();
-                obj2.GainXP(150);
+                Console.WriteLine();
             }
 
         }

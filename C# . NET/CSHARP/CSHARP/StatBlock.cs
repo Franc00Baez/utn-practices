@@ -13,7 +13,7 @@ namespace CSHARP
         public byte Agility { get; protected set; }
 
 
-        public StatBlock(Hp character)
+        public StatBlock()
         {
             Strength = 1;
             Intellect = 1;
@@ -34,7 +34,7 @@ namespace CSHARP
             Intellect += intellect;
             Agility += agility;
         }
-        public override string ToString()
+        public string StatsString()
         {
             return "Strength: " + Strength + "\n" + "Intelect: " + Intellect + "\n" + "Agility: " + Agility;
         }

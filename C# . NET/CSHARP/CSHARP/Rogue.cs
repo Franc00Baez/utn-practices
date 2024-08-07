@@ -6,35 +6,36 @@ using System.Threading.Tasks;
 
 namespace CSHARP
 {
-    class Rogue : Hp
+    class Rogue : PlayerCharacterDelegate
     {
         public string Name { get; private set; }
-        public StatBlock Stats { get; protected set; }
 
-        public const ushort HPGROWTH = 15;
+        public const ushort HPGROWTH = 14;
 
         public const byte STRBASE = 2;
         public const byte INTBASE = 1;
         public const byte AGLBASE = 4;
 
-        public const byte STRGROWTH = 1;
-        public const byte INTGROWTH = 0;
-        public const byte AGLGROWTH = 5;
-
-        public Rogue(string name) : base(HPGROWTH)
+        public Rogue(string name) : base(STRBASE, INTBASE, AGLBASE, HPGROWTH)
         {
             Name = name;
-            Stats = new StatBlock(STRBASE, INTBASE, AGLBASE);
         }
-        public override void IncreaseStatsOnLevelUp()
+
+        public override void LeveUp()
         {
-            Stats.IncreaseStats(STRGROWTH, INTGROWTH, AGLGROWTH);
-            MaxHp += HPGROWTH;
-            CurrentHp = MaxHp;
+            ushort hp = HPGROWTH / 2;
+            byte str = STRBASE / 2;
+            byte inte = INTBASE / 2;
+            byte agl = AGLBASE / 2;
+
+            Hp.IncreaseMaxPoints(hp);
+            Hp.IncreasePoints(Hp.MaxPoints);
+            IncreaseStats(str, inte, agl);
         }
-        public override void OnDeath()
+
+        public override string getClassName()
         {
-            throw new NotImplementedException();
+            return "Warrior";
         }
     }
 }
